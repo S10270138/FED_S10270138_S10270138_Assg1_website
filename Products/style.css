@@ -1,0 +1,147 @@
+/* Global Settings */
+body {
+  font-size: 2rem; /* Base font size for body text */
+  font-family: "Rubik", sans-serif; /* Sets font to Rubik for body */
+  line-height: 1.6; /* Sets line height for better readability */
+  font-weight: 400; /* Normal font weight */
+  background-color: #000; /* Black background color */
+  color: #f5e5d3; /* Light beige text color */
+}
+
+/* Header Styling */
+.header {
+  display: flex; /* Flexbox layout for header */
+  justify-content: space-between; /* Spreads logo and navigation across */
+  align-items: center; /* Vertically centers items */
+  background-color: #000; /* Black background */
+  height: 9.6rem; /* Sets header height */
+  padding: 0 4.8rem; /* Horizontal padding for header */
+}
+
+.logo img {
+  height: 10rem; /* Sets logo image height */
+}
+
+
+
+/* Gallery Layout */
+.gallery {
+  display: grid; /* Grid layout for gallery */
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 3.2rem; /* Spacing between items */
+  margin-top: 4rem; /* Top margin */
+}
+
+.gallery-item {
+  background-color: #1a1a1a; /* Dark background for gallery items */
+  padding: 2.4rem; /* Padding inside gallery items */
+  border-radius: 1.6rem; /* Rounded corners */
+  text-align: center; /* Centers text */
+  overflow: hidden; /* Prevents overflow */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition effects */
+}
+
+.gallery-item img {
+  width: 100%; /* Makes image fill the container */
+  border-radius: 1.6rem; /* Rounded corners for image */
+  object-fit: cover; /* Ensures image covers container without distortion */
+}
+
+.gallery-item .caption {
+  font-size: 2rem; /* Font size for image captions */
+  color: #f5e5d3; /* Beige text color */
+  margin-top: 1.6rem; /* Top margin for caption */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* Slightly enlarges the item on hover */
+  background-color: #333; /* Darkens background on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Header adjustments for medium screens */
+  .header {
+    flex-direction: column; /* Stacks header items vertically */
+    height: auto; /* Adjusts height */
+    padding: 2rem; /* Reduces padding */
+  }
+
+  .logo img {
+    height: 8rem; /* Smaller logo on medium screens */
+  }
+
+  .main-nav-list {
+    flex-direction: column; /* Stacks navigation items vertically */
+    align-items: center; /* Centers navigation items */
+    gap: 2rem; /* Smaller gap */
+    padding-top: 2rem; /* Adds padding to top */
+  }
+
+  /* Gallery adjustments for smaller screens */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+
+  .gallery-item .caption {
+    font-size: 1.8rem; /* Smaller caption text */
+  }
+
+  .hero-description {
+    font-size: 2rem; /* Smaller hero description text */
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .logo img {
+    height: 8rem;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item .caption {
+    font-size: 1.8rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item .caption {
+    font-size: 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: normal;
+}

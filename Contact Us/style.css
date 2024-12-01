@@ -1,0 +1,212 @@
+
+
+.heading-primary {
+  font-size: 3.6rem;  /* Font size for primary heading */
+  font-weight: 500;  /* Medium weight for primary heading */
+  text-align: center;  /* Centers the heading */
+  margin-bottom: 4.8rem;  /* Adds bottom margin */
+  color: #f5e5d3;  /* Beige text color */
+}
+
+.grid--2-cols {
+  display: grid;  /* Uses CSS grid for layout */
+  grid-template-columns: 1fr 1fr;  /* Creates two equal-width columns */
+  gap: 6.4rem;  /* Adds space between columns */
+}
+
+.contact-info {
+  background-color: #1a1a1a;  /* Dark grey background for contrast */
+  padding: 3.2rem;  /* Padding inside the contact info box */
+  border-radius: 1.6rem;  /* Rounded corners */
+}
+
+.heading-secondary {
+  font-size: 2.4rem;  /* Font size for secondary headings */
+  margin-bottom: 2.4rem;  /* Adds bottom margin */
+}
+
+.contact-info p {
+  font-size: 1.8rem;  /* Font size for paragraphs inside contact info */
+  margin-bottom: 2.4rem;  /* Adds space below paragraphs */
+}
+
+.contact-info ul {
+  list-style-type: none;  /* Removes list bullets */
+}
+
+.contact-info ul li {
+  font-size: 1.8rem;  /* Font size for list items */
+  margin-bottom: 1.6rem;  /* Adds space below list items */
+}
+
+.contact-info ul li a {
+  color: #f5e5d3;  /* Beige text color for links */
+  text-decoration: none;  /* Removes underline from links */
+}
+
+.contact-info ul li a:hover {
+  color: #fff;  /* Changes link color to white on hover */
+}
+
+.contact-form {
+  background-color: #1a1a1a;  /* Dark grey background for contrast */
+  padding: 3.2rem;  /* Padding inside the contact form */
+  border-radius: 1.6rem;  /* Rounded corners */
+}
+
+.contact-form .form-group {
+  margin-bottom: 2.4rem;  /* Adds space between form groups */
+}
+
+.contact-form label {
+  font-size: 1.8rem;  /* Font size for labels */
+  color: #f5e5d3;  /* Beige color for labels */
+  display: block;  /* Makes labels block elements */
+  margin-bottom: 1rem;  /* Adds space below labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;  /* Makes inputs and textarea take full width */
+  padding: 1.6rem;  /* Padding inside inputs and textarea */
+  font-size: 1.8rem;  /* Font size for inputs and textarea */
+  background-color: #333;  /* Dark grey background */
+  border: 1px solid #444;  /* Light border */
+  border-radius: 1rem;  /* Rounded corners */
+  color: #f5e5d3;  /* Beige text color */
+}
+
+.contact-form button {
+  padding: 1.6rem 3.2rem;  /* Padding inside the button */
+  font-size: 1.8rem;  /* Font size for the button */
+  background-color: #f5e5d3;  /* Beige background color for the button */
+  color: #000;  /* Black text color */
+  border: none;  /* Removes border */
+  border-radius: 1rem;  /* Rounded corners */
+  cursor: pointer;  /* Makes the button clickable */
+  transition: background-color 0.3s;  /* Smooth background color transition on hover */
+}
+
+.contact-form button:hover {
+  background-color: #fff;  /* Changes button background to white on hover */
+}
+
+/* Footer */
+.footer {
+  background-color: #000;  /* Black background for the footer */
+  color: #f5e5d3;  /* Beige text color */
+  padding: 2rem;  /* Padding inside the footer */
+  text-align: center;  /* Centers text inside the footer */
+}
+
+/* Mobile-first responsive adjustments */
+@media screen and (max-width: 768px) {
+  /* Header adjustments for smaller screens */
+  .header {
+    flex-direction: column;  /* Stacks header items vertically */
+    height: auto;  /* Adjusts height for smaller screens */
+    padding: 2rem;  /* Reduces padding */
+  }
+
+  .logo img {
+    height: 8rem;  /* Reduces logo size on mobile */
+  }
+
+  .main-nav-list {
+    flex-direction: column;  /* Stacks nav links vertically */
+    align-items: center;  /* Centers nav links */
+    gap: 2rem;  /* Reduces space between nav links */
+    padding-top: 2rem;  /* Adds top padding */
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;  /* Reduces font size of nav links */
+  }
+
+  /* Contact Us Page */
+  .contact-us {
+    padding: 3.2rem 1rem;  /* Adjusts padding for smaller screens */
+  }
+
+  .heading-primary {
+    font-size: 3rem;  /* Reduces font size for the primary heading */
+    margin-bottom: 2rem;  /* Adjusts margin for smaller screens */
+  }
+
+  /* Grid Layout Adjustments */
+  .grid--2-cols {
+    grid-template-columns: 1fr;  /* Stacks grid items vertically on mobile */
+    gap: 3.2rem;  /* Adjusts gap between grid items */
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 2.4rem;  /* Adjusts padding for smaller screens */
+  }
+
+  .heading-secondary {
+    font-size: 2rem;  /* Reduces secondary heading size */
+  }
+
+  .contact-info p,
+  .contact-info ul li,
+  .contact-form label {
+    font-size: 1.6rem;  /* Adjusts font size for smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 1.2rem;  /* Reduces padding inside input/textarea */
+    font-size: 1.6rem;  /* Reduces font size */
+  }
+
+  .contact-form button {
+    font-size: 1.6rem;  /* Reduces font size of the button */
+    padding: 1.2rem 2.4rem;  /* Reduces button padding */
+  }
+
+  /* Footer adjustments */
+  .footer {
+    padding: 1.6rem;  /* Reduces padding inside the footer */
+  }
+
+  /* Adjust table layout for mobile */
+  .table {
+    width: 100%;  /* Makes table full width on mobile */
+    padding: 0 1rem;  /* Adds padding around table */
+  }
+
+  thead {
+    font-size: 1.6rem;  /* Reduces font size of table header */
+  }
+
+  tbody {
+    font-size: 1.4rem;  /* Reduces font size of table body */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading-primary {
+    font-size: 2.6rem;  /* Further reduces font size for very small screens */
+  }
+
+  .heading-secondary {
+    font-size: 1.8rem;  /* Further reduces font size for secondary headings */
+  }
+
+  .contact-info p,
+  .contact-info ul li,
+  .contact-form label {
+    font-size: 1.4rem;  /* Further reduces font size for smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.4rem;  /* Adjusts font size for inputs */
+  }
+
+  .contact-form button {
+    font-size: 1.4rem;  /* Adjusts button font size */
+  }
+}

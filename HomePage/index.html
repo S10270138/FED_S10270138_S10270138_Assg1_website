@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Declares the document type and sets the language to English -->
+
+<head>
+  <!-- Head section contains metadata and links to external resources -->
+  <meta charset="UTF-8" />
+  <!-- Sets character encoding to UTF-8 for universal character support -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Ensures compatibility with older versions of Internet Explorer -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Makes the page responsive by adjusting the viewport to the device width -->
+  <title>Duke Bakery</title>
+  <!-- Sets the title of the webpage -->
+
+  <!-- Links to external CSS files for styling -->
+  <link rel="stylesheet" href="../CSS/general.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Favicon for the browser tab -->
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- Main content of the webpage -->
+  <header class="header">
+    <!-- Header section containing the logo and navigation menu -->
+    <a href="#">
+      <img class="logo" alt="Duke Bakery Logo" src="logo.png" />
+      <!-- Displays the Duke Bakery logo -->
+    </a>
+
+    <nav class="main-nav">
+      <!-- Navigation bar -->
+      <ul class="main-nav-list">
+        <!-- List of navigation links -->
+        <li><a class="main-nav-link" href="#">Home</a></li>
+        <!-- Link to the homepage -->
+        <li>
+          <a class="main-nav-link" href="../Products/product.html">Our Baked Goods</a>
+          <!-- Link to the products page -->
+        </li>
+        <li>
+          <a class="main-nav-link" href="../About us/aboutUs.html">About Us</a>
+          <!-- Link to the about us page -->
+        </li>
+        <li>
+          <a class="main-nav-link" href="../Contact Us/contactUs.html">Contact Us</a>
+          <!-- Link to the contact us page -->
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content area -->
+    <section class="section-hero">
+      <!-- Hero section introducing the bakery -->
+      <div class="hero">
+        <div class="hero-text-box">
+          <!-- Text box with heading and description -->
+          <h1 class="heading-primary">
+            Freshly Baked Just for You
+          </h1>
+          <!-- Primary heading -->
+          <p class="hero-description">
+            Indulge in our selection of warm, handcrafted bread, flaky croissants, and decadent cakes. Every bite tells a story of quality and passion.
+          </p>
+          <!-- Description text -->
+          <a href="../Products/product.html" class="btn btn--full margin-right-sm">Explore Our Bakes</a>
+          <!-- Button linking to the products page -->
+          <a href="#info" class="btn btn--outline">Learn More &darr;</a>
+          <!-- Button linking to the "More Info" section -->
+        </div>
+        <div class="hero-img-box">
+          <!-- Image box displaying bakery visuals -->
+          <img src="dukebakery.jpg" class="hero-img" alt="Freshly baked pastries" />
+        </div>
+      </div>
+    </section>
+
+    <section class="more-info" id="info">
+      <!-- Additional information section -->
+      <div class="container">
+        <!-- Container for consistent layout and spacing -->
+        <div class="grid grid--2-cols">
+          <!-- Grid layout with two columns -->
+          <img src="dbcitylink.jpg" class="institute-image" alt="Our Bakery" />
+          <!-- Image of the bakery -->
+          <p class="detail detail--1">
+            At Duke Bakery, we specialize in artisanal bread, delicious pastries, and bespoke cakes for every occasion. Our bakery is committed to using the finest ingredients, ensuring that every product is baked fresh every day with love and care.
+          </p>
+          <!-- Description of the bakery's offerings -->
+          <p class="detail detail--1">
+            Whether you’re enjoying a morning pastry or celebrating a special event, we provide a delightful experience for all. Our dedicated team is passionate about crafting baked goods that bring joy to every customer.
+          </p>
+          <!-- Additional description highlighting customer experience -->
+          <img src="52130749469_ae5f029420_b.jpg" class="institute-image" alt="Baked products display" />
+          <!-- Image of baked products -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+  <!-- Links to external JavaScript file -->
+</body>
+
+</html>

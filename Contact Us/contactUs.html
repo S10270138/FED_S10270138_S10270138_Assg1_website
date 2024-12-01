@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Specifies the document type and sets the language to English -->
+
+<head>
+  <!-- Head section contains metadata and external resource links -->
+  <meta charset="UTF-8" />
+  <!-- Sets character encoding to UTF-8 for universal character support -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Ensures compatibility with older versions of Internet Explorer -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Makes the page responsive by setting the viewport width to the device width -->
+  <title>Contact Us | Duke Bakery</title>
+  <!-- Sets the title of the webpage -->
+
+  <!-- Links to external CSS files for styling -->
+  <link rel="stylesheet" href="../CSS/general.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon for the browser tab -->
+  <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- Main content of the webpage -->
+  <header class="header">
+    <!-- Header section with navigation -->
+    <a href="#">
+      <img class="logo" alt="Duke Bakery Logo" src="../images/logo.png" />
+      <!-- Displays the Duke Bakery logo as a clickable link -->
+    </a>
+
+    <nav class="main-nav">
+      <!-- Navigation menu -->
+      <ul class="main-nav-list">
+        <!-- Unordered list for navigation links -->
+        <li>
+          <a class="main-nav-link" href="../HomePage/index.html">Home</a>
+          <!-- Link to the homepage -->
+        </li>
+        <li>
+          <a class="main-nav-link" href="../Products/product.html">Our Baked Goods</a>
+          <!-- Link to the products page -->
+        </li>
+        <li>
+          <a class="main-nav-link" href="../About us/aboutUs.html">About Us</a>
+          <!-- Link to the about us page -->
+        </li>
+        <li>
+          <a class="main-nav-link" href="../Contact Us/contactUs.html">Contact Us</a>
+          <!-- Link to the contact us page (current page) -->
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content section -->
+    <section class="section-hero">
+      <!-- Hero section for the page header -->
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Contact Us</h1>
+          <!-- Primary heading for the contact us page -->
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <!-- Contact us section -->
+      <div class="container">
+        <!-- Container to center and constrain content width -->
+        <div class="grid grid--2-cols">
+          <!-- Grid layout with two columns -->
+
+          <div class="contact-info">
+            <!-- Left column: contact information -->
+            <h2 class="heading-secondary">Get in Touch</h2>
+            <!-- Secondary heading -->
+            <p>Feel free to reach out to us for any inquiries or feedback!</p>
+            <!-- Introductory text -->
+            <ul>
+              <!-- List of contact details -->
+              <li><strong>Address:</strong> 1 Raffles Link, #B1 - 61, Singapore 039393</li>
+              <!-- Address -->
+              <li><strong>Phone:</strong> <a href="tel:+6582882055">+65 8288 2055</a></li>
+              <!-- Phone number with clickable link -->
+              <li><strong>Email:</strong> <a href="mailto:S10270138@connect.np.edu.sg">dukebakery@gmail.com</a></li>
+              <!-- Email address with clickable mailto link -->
+            </ul>
+          </div>
+
+          <div class="contact-form">
+            <!-- Right column: contact form -->
+            <h2 class="heading-secondary">Send Us a Message</h2>
+            <!-- Secondary heading -->
+            <form action="submit-form.php" method="POST">
+              <!-- Form to collect user input and submit via POST -->
+              <div class="form-group">
+                <!-- Group for full name input -->
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+                <!-- Text input field for name (required) -->
+              </div>
+              <div class="form-group">
+                <!-- Group for email input -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+                <!-- Email input field (required) -->
+              </div>
+              <div class="form-group">
+                <!-- Group for message input -->
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <!-- Textarea for message (required) -->
+              </div>
+              <button type="submit" class="btn btn--full">Send Message</button>
+              <!-- Submit button -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!-- Footer section -->
+    <p>&copy; 2024 Duke Bakery. All rights reserved.</p>
+    <!-- Copyright notice -->
+  </footer>
+
+  <!-- External JavaScript file -->
+  <script src="contactus.js"></script>
+</body>
+</html>

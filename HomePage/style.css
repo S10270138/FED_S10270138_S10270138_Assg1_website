@@ -1,0 +1,112 @@
+
+/* Hero section */
+.section-hero {
+  background-color: #000; /* Matches body background */
+  padding: 4.8rem 0 9.6rem 0; /* Vertical padding */
+}
+
+.hero {
+  max-width: 130rem; /* Maximum width for content */
+  margin: 0 auto; /* Centers the section */
+  padding: 0 3.2rem; /* Horizontal padding */
+  display: grid; /* Grid layout for hero content */
+  grid-template-columns: 1fr 1fr; /* Two-column grid */
+  gap: 9.6rem; /* Space between grid items */
+  align-items: center; /* Aligns content vertically */
+}
+
+/* Hero text styles */
+.hero-description {
+  font-size: 2rem; /* Font size */
+  line-height: 1.5; /* Line spacing */
+  margin-bottom: 4.8rem; /* Space below text */
+  color: #f5e5d3; /* Text color */
+}
+
+/* Hero image */
+.hero-img {
+  width: 100%; /* Full width image */
+}
+
+/* Utility class for margins */
+.margin-right-sm {
+  margin-right: 1.6rem !important; /* Adds small right margin */
+}
+
+/* More info section */
+.more-info {
+  padding: 4.8rem 0 3.2rem 0; /* Vertical padding */
+}
+
+.institute-image {
+  width: 100%; /* Full width images */
+}
+
+/* Descriptive text */
+.detail {
+  font-size: 1.8rem; /* Font size */
+  line-height: 1.8; /* Line spacing */
+  color: #f5e5d3; /* Text color */
+}
+
+/* Grid layout for two columns */
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 6.4rem; /* Space between grid items */
+}
+
+/* Responsive styles for tablets */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stacks header items */
+    height: auto; /* Adjusts height */
+    padding: 2rem; /* Reduces padding */
+  }
+
+  .logo img {
+    height: 8rem; /* Smaller logo */
+  }
+
+  .main-nav-list {
+    flex-direction: column; /* Stacks menu items */
+    align-items: center;
+    gap: 2rem; /* Reduces gap */
+    padding-top: 2rem; /* Adds top padding */
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem; /* Smaller font size */
+  }
+
+  .hero {
+    grid-template-columns: 1fr; /* Stacks hero content */
+    gap: 4rem; /* Reduces gap */
+    padding: 2rem; /* Reduces padding */
+  }
+
+  .hero-description {
+    font-size: 1.8rem; /* Smaller font size */
+    margin-bottom: 2rem; /* Reduces margin */
+  }
+
+  .more-info {
+    padding: 2rem 0; /* Smaller padding */
+  }
+
+  .detail {
+    font-size: 1.6rem; /* Smaller font size */
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 480px) {
+  .hero-description {
+    font-size: 1.6rem; /* Smaller font size */
+  }
+
+  .detail {
+    font-size: 1.4rem; /* Smaller font size */
+  }
+}
