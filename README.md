@@ -23,6 +23,24 @@ Engage with Customers: Offer essential details about the bakery, its mission, an
 Drive Sales and Visits: Encourage visitors to explore baked goods online and potentially visit the bakery in person.
 Build Trust and Brand Identity: Strengthen the Duke Bakery brand by presenting a clean, professional, and visually appealing design.
 
+features:
+1.button to scroll up
+2.highlight when hover over feature
+3.form is validated
+test:
+Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+
+Content
+The texts descriptions are generation from OpenAI
+Media
+The photos used in this site were obtained from Google.com
+Acknowledgements
+I received inspiration for this project from (https://www.dukebakery.sg/)
+
 
 github link: https://github.com/S10270138/FED_S10270138_S10270138_Assg1_website
 figma link: https://www.figma.com/design/lmtmNOnzLENRqikMbQ91fQ/FED_S10270138_BooYuanSheng_Assg1_wireframe?node-id=2-2&t=BGgwURn44bcVH8kD-1
