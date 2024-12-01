@@ -1,4 +1,5 @@
-Project Idea 
+
+Project Idea (DUKE Bakery Website
 Build a website for a bakery (real or fictional)
 External user’s goal:
 The site is used to allow people that are fans of bread and pastries to learn more about this bakery so that more of them can visit. The site can also be used to answer any questions that customers might have
