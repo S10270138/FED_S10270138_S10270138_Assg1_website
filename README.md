@@ -6,11 +6,7 @@ The site is used to allow people that are fans of bread and pastries to learn mo
 Site owner's goal:
 The site is used to publicize the bakery so more customers can come visit the bakery and generate more profits for the owner
 Potential features to include:
-● Showcase photos, audio and/or video clips from the band's catalogue.
-● Publicise the band's upcoming shows and/or availability to perform at events such as
-weddings and corporate parties.
-● Provide links to external resources, such as the band's social media profiles (can
-point anywhere at all).
+
 Suggested Javascript features to include:
 
 Micro interactions when interacting with the site eg, clicking on an interactable area
