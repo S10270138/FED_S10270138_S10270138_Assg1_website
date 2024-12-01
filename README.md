@@ -26,3 +26,7 @@ Promote Products: Provide a platform where customers can explore the range of ba
 Engage with Customers: Offer essential details about the bakery, its mission, and its passion for crafting memorable experiences for customers.
 Drive Sales and Visits: Encourage visitors to explore baked goods online and potentially visit the bakery in person.
 Build Trust and Brand Identity: Strengthen the Duke Bakery brand by presenting a clean, professional, and visually appealing design.
+
+
+github link: https://github.com/S10270138/FED_S10270138_S10270138_Assg1_website
+figma link: https://www.figma.com/design/lmtmNOnzLENRqikMbQ91fQ/FED_S10270138_BooYuanSheng_Assg1_wireframe?node-id=2-2&t=BGgwURn44bcVH8kD-1
